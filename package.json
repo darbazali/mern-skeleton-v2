@@ -1,0 +1,41 @@
+{
+  "name": "mern-skeleton-v2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MERN Stack web application skeleton",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarbazAli/mern-skeleton-v2.git"
+  },
+  "keywords": [
+    "MERN",
+    "REACT",
+    "EXPRESS",
+    "NODE",
+    "JAVASCRIPT",
+    "MongoDB"
+  ],
+  "author": "Darbaz Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarbazAli/mern-skeleton-v2/issues"
+  },
+  "homepage": "https://github.com/DarbazAli/mern-skeleton-v2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
