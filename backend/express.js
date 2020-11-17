@@ -4,6 +4,9 @@ import compress from 'compression'
 import helmet from 'helmet'
 import cors from 'cors'
 
+// import custom modules
+import userRoute from './routes/userRoute.js'
+
 // init app
 const app = express()
 
@@ -19,5 +22,6 @@ app.get('/', (req, res) => {
   return res.status(200).send('<h1>API working...</h1>')
 })
 
+app.use('/', userRoute)
 // exort app
 export default app

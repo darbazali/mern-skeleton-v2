@@ -31,6 +31,8 @@ const UserSchema = new mongoose.Schema({
   salt: String,
 })
 
+UserSchema.index('name', 1)
+
 /*----------------------------------------------------
     Handling the password string as a virtual field
 -----------------------------------------------------*/
